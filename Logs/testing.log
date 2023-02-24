@@ -1,0 +1,408 @@
+01:47:00.481 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_01-1 - - - - - -
+01:47:00.486 [main] TRACE TestRunner: Connecting to API...
+01:47:00.487 [main] TRACE TestRunner: API key for user: travisbell obtained from .json
+01:47:00.487 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=9a59273c70b69212cf41e4d9fe01a007B08TR
+01:47:00.487 [main] ERROR TestRunner: HTTP status code 401
+01:47:00.487 [main] INFO  TestRunner: "success": false,
+01:47:00.487 [main] INFO  TestRunner: "status_message": "Invalid API key: You must be granted a valid key."
+01:47:00.489 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.504 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_01-2 - - - - - -
+01:47:00.512 [main] TRACE TestRunner: Connecting to API...
+01:47:00.513 [main] TRACE TestRunner: API key for user: Jsmith31 obtained from .json
+01:47:00.513 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=1brh773cg45h32112dg7e5d23e0v3hg6qkM6n
+01:47:00.513 [main] ERROR TestRunner: HTTP status code 401
+01:47:00.513 [main] INFO  TestRunner: "success": false,
+01:47:00.513 [main] INFO  TestRunner: "status_message": "Invalid API key: You must be granted a valid key."
+01:47:00.513 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.516 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_01-3 - - - - - -
+01:47:00.517 [main] TRACE TestRunner: Connecting to API...
+01:47:00.517 [main] TRACE TestRunner: API key for user: Bshaxx obtained from .json
+01:47:00.517 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=124h8d1ah774h65hfn10ffm12vh66fdawVYLc
+01:47:00.517 [main] ERROR TestRunner: HTTP status code 401
+01:47:00.518 [main] INFO  TestRunner: "success": false,
+01:47:00.518 [main] INFO  TestRunner: "status_message": "Invalid API key: You must be granted a valid key."
+01:47:00.518 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.522 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_01-4 - - - - - -
+01:47:00.522 [main] TRACE TestRunner: Connecting to API...
+01:47:00.522 [main] TRACE TestRunner: API key for user: AdrwC obtained from .json
+01:47:00.522 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197bJtBt
+01:47:00.523 [main] ERROR TestRunner: HTTP status code 401
+01:47:00.523 [main] INFO  TestRunner: "success": false,
+01:47:00.523 [main] INFO  TestRunner: "status_message": "Invalid API key: You must be granted a valid key."
+01:47:00.523 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.529 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_02-1 - - - - - -
+01:47:00.529 [main] TRACE TestRunner: Connecting to API...
+01:47:00.530 [main] TRACE TestRunner: API key for user: travisbell obtained from .json
+01:47:00.530 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.530 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.530 [main] TRACE TestRunner: "success": true,
+01:47:00.530 [main] TRACE TestRunner: "request_token":  "rPYzTfwLmF3m3efwJp2c8BnZADqKzvIsfic3MGHK"
+01:47:00.530 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.531 [main] TRACE TestRunner: 
+Request body: 
+"username": travisbell
+"password": 8fK234*
+"request_token": rPYzTfwLmF3m3efwJp2c8BnZADqKzvIsfic3MGHK"
+01:47:00.531 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.531 [main] TRACE TestRunner: "success": true,
+01:47:00.531 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.532 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "rPYzTfwLmF3m3efwJp2c8BnZADqKzvIsfic3MGHK
+01:47:00.532 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.532 [main] TRACE TestRunner: "success": true,
+01:47:00.532 [main] TRACE TestRunner: "session_id":  "8bJp5kVA8VWrqcb2IBszRd0H2Oo3Tn4jzv7H8gOE"
+01:47:00.537 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.539 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_02-2 - - - - - -
+01:47:00.539 [main] TRACE TestRunner: Connecting to API...
+01:47:00.540 [main] TRACE TestRunner: API key for user: Jsmith31 obtained from .json
+01:47:00.540 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.540 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.540 [main] TRACE TestRunner: "success": true,
+01:47:00.540 [main] TRACE TestRunner: "request_token":  "Rezt3BXbmClJgGE9lfjBDwReOAcWvlTIYIEgomf8"
+01:47:00.540 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.541 [main] TRACE TestRunner: 
+Request body: 
+"username": Jsmith31
+"password": @584221fg
+"request_token": Rezt3BXbmClJgGE9lfjBDwReOAcWvlTIYIEgomf8"
+01:47:00.542 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.542 [main] TRACE TestRunner: "success": true,
+01:47:00.542 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.542 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "Rezt3BXbmClJgGE9lfjBDwReOAcWvlTIYIEgomf8
+01:47:00.542 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.543 [main] TRACE TestRunner: "success": true,
+01:47:00.543 [main] TRACE TestRunner: "session_id":  "TSMSyzcS2UiDPYsB3y2uAIgtZVXSNWhKG5jBzJbv"
+01:47:00.543 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.546 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_02-3 - - - - - -
+01:47:00.547 [main] TRACE TestRunner: Connecting to API...
+01:47:00.547 [main] TRACE TestRunner: API key for user: Bshaxx obtained from .json
+01:47:00.547 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.547 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.547 [main] TRACE TestRunner: "success": true,
+01:47:00.547 [main] TRACE TestRunner: "request_token":  "LvT0aEP3amYW0YciTsEBVGrrOICJW687229SxKRG"
+01:47:00.548 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.548 [main] TRACE TestRunner: 
+Request body: 
+"username": Bshaxx
+"password": 12!Cajy@
+"request_token": LvT0aEP3amYW0YciTsEBVGrrOICJW687229SxKRG"
+01:47:00.548 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.548 [main] TRACE TestRunner: "success": true,
+01:47:00.548 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.548 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "LvT0aEP3amYW0YciTsEBVGrrOICJW687229SxKRG
+01:47:00.548 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.548 [main] TRACE TestRunner: "success": true,
+01:47:00.548 [main] TRACE TestRunner: "session_id":  "9a7IBZNVy7gqM614SnTp9t8Hq1r7tq3Pqd3LjW61"
+01:47:00.549 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.553 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_02-4 - - - - - -
+01:47:00.554 [main] TRACE TestRunner: Connecting to API...
+01:47:00.554 [main] TRACE TestRunner: API key for user: AdrwC obtained from .json
+01:47:00.554 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.554 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.554 [main] TRACE TestRunner: "success": true,
+01:47:00.554 [main] TRACE TestRunner: "request_token":  "P2F3SFOe9FCIwgIyt3D26CUTG5GtBRG3WPS3YqjM"
+01:47:00.554 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.554 [main] TRACE TestRunner: 
+Request body: 
+"username": AdrwC
+"password": d5ef089#
+"request_token": P2F3SFOe9FCIwgIyt3D26CUTG5GtBRG3WPS3YqjM"
+01:47:00.555 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.555 [main] TRACE TestRunner: "success": true,
+01:47:00.555 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.555 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "P2F3SFOe9FCIwgIyt3D26CUTG5GtBRG3WPS3YqjM
+01:47:00.555 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.555 [main] TRACE TestRunner: "success": true,
+01:47:00.556 [main] TRACE TestRunner: "session_id":  "WBmW0et483uQ8yo3piztZNRNWeznt5wIgmz8Hgdp"
+01:47:00.556 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.562 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_03-1 - - - - - -
+01:47:00.562 [main] TRACE TestRunner: Connecting to API...
+01:47:00.562 [main] TRACE TestRunner: API key for user: travisbell obtained from .json
+01:47:00.562 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.562 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.563 [main] TRACE TestRunner: "success": true,
+01:47:00.563 [main] TRACE TestRunner: "request_token":  "8DBHCRZUuaXxFsdvi27rbhoSEV6hybuTrfaCwQ8y"
+01:47:00.563 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.563 [main] TRACE TestRunner: 
+Request body: 
+"username": travisbell
+"password": 8fK234*
+"request_token": 8DBHCRZUuaXxFsdvi27rbhoSEV6hybuTrfaCwQ8y"
+01:47:00.563 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.563 [main] TRACE TestRunner: "success": true,
+01:47:00.563 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.563 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "8DBHCRZUuaXxFsdvi27rbhoSEV6hybuTrfaCwQ8y
+01:47:00.564 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.564 [main] TRACE TestRunner: "success": true,
+01:47:00.564 [main] TRACE TestRunner: "session_id":  "RCh3v0cr7Nuv2L5XbRlgCMSCvp0OuwqUKIVnekWO"
+01:47:00.564 [main] TRACE TestRunner: Sending request for account details: https://api.themoviedb.org/3/account?api_key=9a59273c70b69212cf41e4d9fe01a007&session_id=RCh3v0cr7Nuv2L5XbRlgCMSCvp0OuwqUKIVnekWO
+01:47:00.564 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.565 [main] TRACE TestRunner: "username": "travisbell"
+01:47:00.566 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.570 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_03-2 - - - - - -
+01:47:00.570 [main] TRACE TestRunner: Connecting to API...
+01:47:00.570 [main] TRACE TestRunner: API key for user: Jsmith31 obtained from .json
+01:47:00.570 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.570 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.570 [main] TRACE TestRunner: "success": true,
+01:47:00.571 [main] TRACE TestRunner: "request_token":  "BA2BE8bX9fp6RP8QZ9jeH1Boe8COKijIeqAbYqZk"
+01:47:00.571 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.571 [main] TRACE TestRunner: 
+Request body: 
+"username": Jsmith31
+"password": @584221fg
+"request_token": BA2BE8bX9fp6RP8QZ9jeH1Boe8COKijIeqAbYqZk"
+01:47:00.571 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.571 [main] TRACE TestRunner: "success": true,
+01:47:00.572 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.572 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "BA2BE8bX9fp6RP8QZ9jeH1Boe8COKijIeqAbYqZk
+01:47:00.572 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.572 [main] TRACE TestRunner: "success": true,
+01:47:00.572 [main] TRACE TestRunner: "session_id":  "pB52IGR4Ltw6k7XiHonMgSmoyh88F27ri9wujRJw"
+01:47:00.572 [main] TRACE TestRunner: Sending request for account details: https://api.themoviedb.org/3/account?api_key=1brh773cg45h32112dg7e5d23e0v3hg6&session_id=pB52IGR4Ltw6k7XiHonMgSmoyh88F27ri9wujRJw
+01:47:00.572 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.572 [main] TRACE TestRunner: "username": "Jsmith31"
+01:47:00.573 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.575 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_03-3 - - - - - -
+01:47:00.576 [main] TRACE TestRunner: Connecting to API...
+01:47:00.576 [main] TRACE TestRunner: API key for user: Bshaxx obtained from .json
+01:47:00.576 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.576 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.576 [main] TRACE TestRunner: "success": true,
+01:47:00.577 [main] TRACE TestRunner: "request_token":  "vC33nvwc5NyS9KDQw6mIXFvynYqUlOyoTSEGpOS1"
+01:47:00.577 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.577 [main] TRACE TestRunner: 
+Request body: 
+"username": Bshaxx
+"password": 12!Cajy@
+"request_token": vC33nvwc5NyS9KDQw6mIXFvynYqUlOyoTSEGpOS1"
+01:47:00.577 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.577 [main] TRACE TestRunner: "success": true,
+01:47:00.577 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.577 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "vC33nvwc5NyS9KDQw6mIXFvynYqUlOyoTSEGpOS1
+01:47:00.577 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.578 [main] TRACE TestRunner: "success": true,
+01:47:00.578 [main] TRACE TestRunner: "session_id":  "JY6JXVj3VlT1zjaCn53Psbr8mMHDpJWQ1xOWmiVc"
+01:47:00.578 [main] TRACE TestRunner: Sending request for account details: https://api.themoviedb.org/3/account?api_key=124h8d1ah774h65hfn10ffm12vh66fda&session_id=JY6JXVj3VlT1zjaCn53Psbr8mMHDpJWQ1xOWmiVc
+01:47:00.578 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.578 [main] TRACE TestRunner: "username": "Bshaxx"
+01:47:00.578 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.580 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_03-4 - - - - - -
+01:47:00.580 [main] TRACE TestRunner: Connecting to API...
+01:47:00.581 [main] TRACE TestRunner: API key for user: AdrwC obtained from .json
+01:47:00.581 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.581 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.581 [main] TRACE TestRunner: "success": true,
+01:47:00.581 [main] TRACE TestRunner: "request_token":  "BBkGHsTXjnbPBiLTJEkdTCiEWQght6SYQSOIlPTW"
+01:47:00.581 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.581 [main] TRACE TestRunner: 
+Request body: 
+"username": AdrwC
+"password": d5ef089#
+"request_token": BBkGHsTXjnbPBiLTJEkdTCiEWQght6SYQSOIlPTW"
+01:47:00.582 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.582 [main] TRACE TestRunner: "success": true,
+01:47:00.582 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.582 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "BBkGHsTXjnbPBiLTJEkdTCiEWQght6SYQSOIlPTW
+01:47:00.582 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.582 [main] TRACE TestRunner: "success": true,
+01:47:00.582 [main] TRACE TestRunner: "session_id":  "3N5uaKSThIP09rXv1l9INiyeFAEeX6XK1cyocgV8"
+01:47:00.582 [main] TRACE TestRunner: Sending request for account details: https://api.themoviedb.org/3/account?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197&session_id=3N5uaKSThIP09rXv1l9INiyeFAEeX6XK1cyocgV8
+01:47:00.583 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.583 [main] TRACE TestRunner: "username": "AdrwC"
+01:47:00.583 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.588 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_04-1 - - - - - -
+01:47:00.589 [main] TRACE TestRunner: Connecting to API...
+01:47:00.589 [main] TRACE TestRunner: API key for user: travisbell obtained from .json
+01:47:00.589 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.589 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.589 [main] TRACE TestRunner: "success": true,
+01:47:00.589 [main] TRACE TestRunner: "request_token":  "lWLv1c1wlu0HOgRugrHtFPRpyRoWL1ayJrVAutJa"
+01:47:00.589 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.589 [main] TRACE TestRunner: 
+Request body: 
+"username": travisbell
+"password": 8fK234*
+"request_token": lWLv1c1wlu0HOgRugrHtFPRpyRoWL1ayJrVAutJa"
+01:47:00.589 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.589 [main] TRACE TestRunner: "success": true,
+01:47:00.590 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.590 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "lWLv1c1wlu0HOgRugrHtFPRpyRoWL1ayJrVAutJa
+01:47:00.590 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.590 [main] TRACE TestRunner: "success": true,
+01:47:00.590 [main] TRACE TestRunner: "session_id":  "BksDxAQun4HjuTYFieIezDXf8XCuulLHTKkBfzNG"
+01:47:00.590 [main] TRACE TestRunner: Sending request for account details: https://api.themoviedb.org/3/account?api_key=9a59273c70b69212cf41e4d9fe01a007&session_id=BksDxAQun4HjuTYFieIezDXf8XCuulLHTKkBfzNG
+01:47:00.590 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.598 [main] TRACE TestRunner: Sending request to mark movie as "Favorite": https://api.themoviedb.org/3/account/548/watchlist?api_key=9a59273c70b69212cf41e4d9fe01a007&session_id=BksDxAQun4HjuTYFieIezDXf8XCuulLHTKkBfzNG
+01:47:00.598 [main] TRACE TestRunner: 
+Request body from: 
+requestBodyForFavorite.json
+01:47:00.598 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.598 [main] TRACE TestRunner: "status_code": 12,
+01:47:00.598 [main] TRACE TestRunner: "status_message": "The item/record was updated successfully."
+01:47:00.598 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.602 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_04-2 - - - - - -
+01:47:00.602 [main] TRACE TestRunner: Connecting to API...
+01:47:00.602 [main] TRACE TestRunner: API key for user: Jsmith31 obtained from .json
+01:47:00.603 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.603 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.603 [main] TRACE TestRunner: "success": true,
+01:47:00.603 [main] TRACE TestRunner: "request_token":  "dHxCqpJ7rKaK3PeVxF850VGppvPkSyidP4EIEAPY"
+01:47:00.603 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.603 [main] TRACE TestRunner: 
+Request body: 
+"username": Jsmith31
+"password": @584221fg
+"request_token": dHxCqpJ7rKaK3PeVxF850VGppvPkSyidP4EIEAPY"
+01:47:00.603 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.603 [main] TRACE TestRunner: "success": true,
+01:47:00.603 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.603 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "dHxCqpJ7rKaK3PeVxF850VGppvPkSyidP4EIEAPY
+01:47:00.604 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.604 [main] TRACE TestRunner: "success": true,
+01:47:00.604 [main] TRACE TestRunner: "session_id":  "1yz6kwuMmARjRlUuocwScD2DJKnsOao6TYJxHVtb"
+01:47:00.604 [main] TRACE TestRunner: Sending request for account details: https://api.themoviedb.org/3/account?api_key=1brh773cg45h32112dg7e5d23e0v3hg6&session_id=1yz6kwuMmARjRlUuocwScD2DJKnsOao6TYJxHVtb
+01:47:00.604 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.604 [main] TRACE TestRunner: Sending request to mark movie as "Favorite": https://api.themoviedb.org/3/account/231/watchlist?api_key=1brh773cg45h32112dg7e5d23e0v3hg6&session_id=1yz6kwuMmARjRlUuocwScD2DJKnsOao6TYJxHVtb
+01:47:00.604 [main] TRACE TestRunner: 
+Request body from: 
+requestBodyForFavorite.json
+01:47:00.604 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.604 [main] TRACE TestRunner: "status_code": 12,
+01:47:00.605 [main] TRACE TestRunner: "status_message": "The item/record was updated successfully."
+01:47:00.605 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.609 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_04-3 - - - - - -
+01:47:00.609 [main] TRACE TestRunner: Connecting to API...
+01:47:00.609 [main] TRACE TestRunner: API key for user: Bshaxx obtained from .json
+01:47:00.609 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.609 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.609 [main] TRACE TestRunner: "success": true,
+01:47:00.610 [main] TRACE TestRunner: "request_token":  "lrt9euoalPxvaxBTOSc295kt27UvoUEWvGv5Xy0C"
+01:47:00.610 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.610 [main] TRACE TestRunner: 
+Request body: 
+"username": Bshaxx
+"password": 12!Cajy@
+"request_token": lrt9euoalPxvaxBTOSc295kt27UvoUEWvGv5Xy0C"
+01:47:00.610 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.610 [main] TRACE TestRunner: "success": true,
+01:47:00.610 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.610 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "lrt9euoalPxvaxBTOSc295kt27UvoUEWvGv5Xy0C
+01:47:00.610 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.610 [main] TRACE TestRunner: "success": true,
+01:47:00.610 [main] TRACE TestRunner: "session_id":  "R0BqAr6uCo8Wr0q4bkq0srlKgGz1SVp4i1oMkMZX"
+01:47:00.611 [main] TRACE TestRunner: Sending request for account details: https://api.themoviedb.org/3/account?api_key=124h8d1ah774h65hfn10ffm12vh66fda&session_id=R0BqAr6uCo8Wr0q4bkq0srlKgGz1SVp4i1oMkMZX
+01:47:00.611 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.611 [main] TRACE TestRunner: Sending request to mark movie as "Favorite": https://api.themoviedb.org/3/account/1794/watchlist?api_key=124h8d1ah774h65hfn10ffm12vh66fda&session_id=R0BqAr6uCo8Wr0q4bkq0srlKgGz1SVp4i1oMkMZX
+01:47:00.611 [main] TRACE TestRunner: 
+Request body from: 
+requestBodyForFavorite.json
+01:47:00.611 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.611 [main] TRACE TestRunner: "status_code": 12,
+01:47:00.611 [main] TRACE TestRunner: "status_message": "The item/record was updated successfully."
+01:47:00.611 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.615 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_04-4 - - - - - -
+01:47:00.615 [main] TRACE TestRunner: Connecting to API...
+01:47:00.615 [main] TRACE TestRunner: API key for user: AdrwC obtained from .json
+01:47:00.615 [main] TRACE TestRunner: Sending request for token: https://api.themoviedb.org/3/authentication/token/new?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.616 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.616 [main] TRACE TestRunner: "success": true,
+01:47:00.616 [main] TRACE TestRunner: "request_token":  "ZlcGgU0yafoMc8drlICV2bxrLwcUn2CGRPySsC9U"
+01:47:00.616 [main] TRACE TestRunner: Sending request for validation of token: https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.616 [main] TRACE TestRunner: 
+Request body: 
+"username": AdrwC
+"password": d5ef089#
+"request_token": ZlcGgU0yafoMc8drlICV2bxrLwcUn2CGRPySsC9U"
+01:47:00.616 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.617 [main] TRACE TestRunner: "success": true,
+01:47:00.617 [main] TRACE TestRunner: Sending request to create a session id: https://api.themoviedb.org/3/authentication/session/new?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.617 [main] TRACE TestRunner: 
+Request body: 
+"request_token": "ZlcGgU0yafoMc8drlICV2bxrLwcUn2CGRPySsC9U
+01:47:00.617 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.617 [main] TRACE TestRunner: "success": true,
+01:47:00.617 [main] TRACE TestRunner: "session_id":  "fl9qrRggVrR8cW5n2mdaibBouCRGqBuYkdQS6Rgk"
+01:47:00.617 [main] TRACE TestRunner: Sending request for account details: https://api.themoviedb.org/3/account?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197&session_id=fl9qrRggVrR8cW5n2mdaibBouCRGqBuYkdQS6Rgk
+01:47:00.617 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.618 [main] TRACE TestRunner: Sending request to mark movie as "Favorite": https://api.themoviedb.org/3/account/2030/watchlist?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197&session_id=fl9qrRggVrR8cW5n2mdaibBouCRGqBuYkdQS6Rgk
+01:47:00.618 [main] TRACE TestRunner: 
+Request body from: 
+requestBodyForFavorite.json
+01:47:00.618 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.618 [main] TRACE TestRunner: "status_code": 12,
+01:47:00.618 [main] TRACE TestRunner: "status_message": "The item/record was updated successfully."
+01:47:00.619 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.623 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_05-1 - - - - - -
+01:47:00.627 [main] TRACE TestRunner: User is going to search network "HTB" with ID "12"
+01:47:00.627 [main] TRACE TestRunner: Connecting to API...
+01:47:00.629 [main] TRACE TestRunner: Sending request for network details: https://api.themoviedb.org/3/network/12?api_key=v2d8d1ah77lk0ot9870ffm12vh6fr197
+01:47:00.629 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.629 [main] TRACE TestRunner: "success": true,
+01:47:00.629 [main] TRACE TestRunner: "name": "HTB"
+01:47:00.629 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.631 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_05-2 - - - - - -
+01:47:00.632 [main] TRACE TestRunner: User is going to search network "Netflix" with ID "213"
+01:47:00.632 [main] TRACE TestRunner: Connecting to API...
+01:47:00.632 [main] TRACE TestRunner: Sending request for network details: https://api.themoviedb.org/3/network/213?api_key=124h8d1ah774h65hfn10ffm12vh66fda
+01:47:00.632 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.632 [main] TRACE TestRunner: "success": true,
+01:47:00.632 [main] TRACE TestRunner: "name": "Netflix"
+01:47:00.632 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.635 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_05-3 - - - - - -
+01:47:00.636 [main] TRACE TestRunner: User is going to search network "TV5" with ID "42"
+01:47:00.636 [main] TRACE TestRunner: Connecting to API...
+01:47:00.636 [main] TRACE TestRunner: Sending request for network details: https://api.themoviedb.org/3/network/42?api_key=1brh773cg45h32112dg7e5d23e0v3hg6
+01:47:00.636 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.637 [main] TRACE TestRunner: "success": true,
+01:47:00.637 [main] TRACE TestRunner: "name": "TV5"
+01:47:00.637 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+
+01:47:00.640 [main] INFO  TestRunner: - - - - - - START TEST CASE FCT_05-4 - - - - - -
+01:47:00.640 [main] TRACE TestRunner: User is going to search network "BBC Four" with ID "100"
+01:47:00.640 [main] TRACE TestRunner: Connecting to API...
+01:47:00.641 [main] TRACE TestRunner: Sending request for network details: https://api.themoviedb.org/3/network/100?api_key=9a59273c70b69212cf41e4d9fe01a007
+01:47:00.641 [main] TRACE TestRunner: HTTP status code 200
+01:47:00.641 [main] TRACE TestRunner: "success": true,
+01:47:00.641 [main] TRACE TestRunner: "name": "BBC Four"
+01:47:00.641 [main] INFO  TestRunner: - - - - - - - - - TEST CASE END - - - - - - - - 
+

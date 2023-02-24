@@ -1,0 +1,33 @@
+[
+  {
+    "headquarters":"Sapporo, Hokkaido",
+    "homepage":"https://www.htb.co.jp",
+    "id":12,
+    "logo_path":"/eJSYeF1YIyQbZdTRNxuvVKaZOIK.png",
+    "name":"HTB",
+    "origin_country":"JP"
+  },
+  {
+    "headquarters": "Los Gatos, California",
+    "homepage": "http://www.netflix.com",
+    "id": 213,
+    "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+    "name": "Netflix",
+    "origin_country": ""
+  },
+  {
+    "headquarters":"Quezon City",
+    "homepage":"http://www.tv5.com.ph",
+    "id":42,
+    "logo_path":"/gVinXXdpdbLHuXTUUfx4R9PyuPB.png",
+    "name":"TV5",
+    "origin_country":"PH"
+  },
+  {"headquarters":"London, England",
+    "homepage":"https://www.bbc.co.uk/bbcfour",
+    "id":100,
+    "logo_path":"/lYk9QLeOO9RFuDz8pnW8NcoEL8B.png",
+    "name":"BBC Four",
+    "origin_country":"GB"
+  }
+]

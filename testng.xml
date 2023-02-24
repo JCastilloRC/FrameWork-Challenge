@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-
-<suite name="Framework-Challenge Suit" verbose="1" >
-    <test name="The Movie Database – API Layer" >
-        <classes>
-            <class name="TestRunner" />
-        </classes>
-    </test>
-</suite>
